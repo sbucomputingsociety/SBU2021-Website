@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- {#  The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags  #} -->
+
+    <!-- begin end block title -->
+    <title>The Stony Brook Computing Society</title>
+
+    <!-- load static files -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500"
+          rel="stylesheet" type="text/css">
+
+    <!-- CSS Files -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries  -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://  -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+    <div class="navigation container">
+        <div class="navbar-header" role="navigation">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar-collapse-toggle"
+                    aria-expanded="false"><span
+                    class="glyphicon glyphicon-menu-hamburger"></span></button>
+            <a class="navbar-brand" href="#header">Stony Brook Computer
+                Society</a></div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-toggle">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#about"><span class="glyphicon"></span>Home</a>
+                </li>
+                <li>
+                    <a href="#about"><span class="glyphicon"></span>About</a>
+                </li>
+                <li>
+                    <a href="#upcoming"><span class="glyphicon"></span>Events</a>
+                </li>
+                <li>
+                    <a href="#connect"><span class="glyphicon"></span>Connect</a>
+                </li>
+                <li>
+                    <a href="#contact"><span class="glyphicon"></span>Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- include the header -->
+{% include header.html %}
+
+<div id="content-container" class="container">
+    <article>
+        <!-- include the about section -->
+        {% include about.html %}
+        <!-- include the eboard section -->
+        {% include eboard.html %}
+
+        <!-- include the upcoming events section -->
+        {% include upcoming.html %}
+
+        <!-- include the connect section -->
+        {% include connect.html %}
+
+        <!-- include the connect section -->
+        {% include contact.html %}
+        <!-- ***** block article ********** endblock article ***** -->
+    </article>
+</div>
+<!-- include the footer -->
+{% include footer.html %}
+
+<!-- {# All JS files #} -->
+<script src="js/scripts.js"></script>
+
+<!-- ***** comment ***** -->
+<!-- {# Inline JS #} -->
+<script>
+    function padArticleWithFooterHeight() {
+        $('article').css('padding-bottom', $('footer').outerHeight(true) + 'px');
+    }
+    padArticleWithFooterHeight();
+    window.onresize = padArticleWithFooterHeight;
+</script>
+<!-- ***** endcomment ***** -->
+
+</body>
+</html>

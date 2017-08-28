@@ -1,0 +1,28 @@
+<div id="upcoming" class="row tag">
+    <div class="col-xs-12">
+        <h1>Upcoming Events</h1>
+        <div class="row">
+            {% for apost in site.posts reversed %}
+            <div class="col-xs-6">
+                <div class="aevent">
+                    {% if apost.image != null %}
+                    <img style="max-width:95%" src=" {{ apost.image }}"
+                         alt="{{ apost.image_alt }}"/>
+                    {% endif %}
+                    <h3>{{ apost.title }}</h3>
+
+                    <h2>When: {{ apost.event_date }}</h2>
+                    {% if apost.link != null %}
+                    <h4>RSVP: <a href="{{ apost.link }}">{{ apost.link }}</a>
+                    </h4>
+                    {% endif %}
+                    <h4>{{ apost.description }}</h4>
+                    &nbsp
+                    <div class="col-xs-6 col-sm-3">
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
