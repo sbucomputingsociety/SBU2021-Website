@@ -3,6 +3,9 @@
         <h1>Upcoming Events</h1>
         <div class="row">
             {% for apost in site.posts reversed %}
+
+            <!-- for now temporarily assume only max two posts -->
+            <!-- TODO: make this dynamic and get a scroll bar for all events please -->
             <div class="col-xs-6">
                 <div class="aevent">
                     {% if apost.image != null %}
@@ -22,6 +25,7 @@
                     </div>
                 </div>
             </div>
+
             {% endfor %}
         </div>
     </div>
