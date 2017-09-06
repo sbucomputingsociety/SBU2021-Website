@@ -7394,3 +7394,10 @@ article #recent-meeting-slides > div.row > div {
     margin:auto;
     padding:auto;
 }
+
+.google-calendar{
+    min-width:300px;
+    min-height:600px;
+    width: 100%;
+    height: 100%;
+}

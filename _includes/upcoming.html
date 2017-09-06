@@ -1,11 +1,14 @@
 <div id="upcoming" class="row tag">
     <div class="col-xs-12">
         <h1>Upcoming Events</h1>
+        <iframe class="aevent google-calendar" src="https://calendar.google.com/calendar/embed?src=sbucomputingsociety%40gmail.com&ctz=America/New_York"  frameborder="0" scrolling="no"></iframe>
+        <!--
+        <h1>Upcoming Events</h1>
         <div class="row">
             {% for apost in site.posts reversed %}
 
-            <!-- for now temporarily assume only max two posts -->
-            <!-- TODO: make this dynamic and get a scroll bar for all events please -->
+            // for now temporarily assume only max two posts
+            //TODO: make this dynamic and get a scroll bar for all events please
             <div class="col-xs-6">
                 <div class="aevent">
                     {% if apost.image != null %}
@@ -26,7 +29,10 @@
                 </div>
             </div>
 
+
             {% endfor %}
+
         </div>
+        -->
     </div>
 </div>
