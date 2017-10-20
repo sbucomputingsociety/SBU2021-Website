@@ -26,11 +26,11 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+gems:	
   - jekyll-feed
-  exclude:
-    - Gemfile
-    - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 #MISC config
 timezone: America/New_York
