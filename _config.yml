@@ -28,9 +28,9 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  exclude:
+    - Gemfile
+    - Gemfile.lock
 
 #MISC config
 timezone: America/New_York
@@ -41,7 +41,7 @@ sbcs-mailing-list: http://eepurl.com/c038SD
 sbcs-slack: http://seawolf.slack.com/signup
 sbcs-email: sbucomputingsociety@gmail.com
 
-# Force include Jekyll to dynamically input variables created by 
+# Force include Jekyll to dynamically input variables created by
 include: ['_src']
 
 
