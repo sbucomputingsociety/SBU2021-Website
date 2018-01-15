@@ -1,0 +1,124 @@
+/* global styles */
+
+body{
+  font-family: Ubuntu, sans-serif;
+  font-size: 300;
+}
+
+h1{
+    color: #F33;
+    font-size: 1.75em;
+    font-weight: 300;
+    margin: 1em 0 .3em;
+    top: -.2em;
+    line-height: 1.5em;
+}
+
+h4{
+  font-style: normal;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+/* navbar */
+
+/* header */
+header{
+    padding-top: 1px;
+    color: #FFF;
+    background-color: #1f386a;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+header img{
+    display: block;
+    margin: 1.5em auto;
+    max-width: 50%;
+    max-height: 350px;
+}
+
+header h1{
+    color: white;
+    font-size: 2.75em;
+    margin-top: .75em;
+    margin-bottom: 0;
+}
+
+header h2{
+  color: white;
+  font-size: 1.50em;
+  margin-top: .4em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+/* eboard */
+#eboard img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#eboard h3{
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+#eboard h4{
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+/* upcoming */
+
+.border{
+  border: 4px solid #fff;
+  box-shadow: 0 0 4px #CCC;
+}
+
+/* connect */
+
+#connect h2{
+  font-size: 1.2em;
+}
+
+#connect p{
+  font-size: 1.2em;
+}
+
+#connect img{
+  max-width: 7em;
+}
+
+/* sponsors */
+
+#sponsors{
+  padding-bottom: 25px;
+}
+
+/* footer */
+
+footer{
+    background-color: #1f386a;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer h6, footer a{
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  font-weight: none;
+}
+
+footer img{
+  max-width: 50%;
+}
+
+footer ul{
+  list-style-type: none;
+  padding-left: 0;
+}
