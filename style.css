@@ -3,9 +3,14 @@
 body{
   font-family: Ubuntu, sans-serif;
   font-size: 300;
+  margin:0px;
 }
 
-h1{
+/* * {
+    box-sizing: border-box;
+} */
+
+ h1{
     color: #F33;
     font-size: 1.75em;
     font-weight: 300;
@@ -22,6 +27,7 @@ h4{
 
 /* navbar */
 
+
 /* header */
 header{
     padding-top: 1px;
@@ -29,6 +35,7 @@ header{
     background-color: #1f386a;
     text-align: center;
     line-height: 1.5em;
+    width: 100%;
 }
 
 header img{
@@ -50,7 +57,52 @@ header h2{
   margin-top: .4em;
   padding-bottom: 1em;
   line-height: 1.5em;
+  margin: 0 auto;
 }
+
+@media only screen and (max-width:320px){
+    header h1{
+        font-size: 2em;
+    }
+
+    header h2{
+        font-size: 1em;
+    }
+
+    header img{
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width:375px){
+    header h1{
+        font-size: 1.5em;
+    }
+
+    header h2{
+        font-size: 1em;
+    }
+
+    header img{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:425px){
+    header h1{
+        font-size: 2em;
+    }
+
+    header h2{
+        font-size: 1em;
+    }
+
+    header img{
+        width: 75vw;
+    }
+}
+
+
 
 /* eboard */
 #eboard img{
