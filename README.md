@@ -19,5 +19,4 @@
 * Clean up extra CSS styles
 * On mobile/web, the glyciphon is missing when window size is too small
 
-## Contributers
-* Lise Ho (current secretary of SBCS)
+
