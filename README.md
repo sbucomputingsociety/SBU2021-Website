@@ -1,5 +1,6 @@
 # Website for Stony Brook Computing Society
 
+
 ## About this project
 * This website was converted and adapted from the previous SBCS website built by Reid Horton. 
 * This uses the [Jekyll](https://jekyllrb.com/) to generate the single page website. 
