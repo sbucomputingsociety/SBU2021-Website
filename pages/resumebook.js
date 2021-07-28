@@ -56,14 +56,11 @@ export default function ResumeBookPage(props) {
                     flexDirection: 'column',
                   }}
                 >
-                  <h3 className={classes.title}>Corporate Sponsors</h3>
+                  <h3 className={classes.title}>Resume Book</h3>
                   <div className={classes.description}>
-                    <p>
-                      SBCS is a great way for your company to reach out to Stony
-                      Brook students...
-                    </p>
+                    <p>Add your resume to the resume book...</p>
                   </div>
-                  <h6 className={classes.message}>
+                  {/* <h6 className={classes.message}>
                     THANK YOU TO OUR 2021 CORPORATE SPONSORS!
                   </h6>
                   <GridContainer justify='center' className={classes.content}>
@@ -75,7 +72,7 @@ export default function ResumeBookPage(props) {
                     >
                       <img src='/img/softheon-logo.png' />
                     </GridItem>
-                  </GridContainer>
+                  </GridContainer> */}
                 </div>
               </GridItem>
             </GridContainer>
