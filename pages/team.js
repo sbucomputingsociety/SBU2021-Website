@@ -22,7 +22,7 @@ import AvatarCard from '../components/AvatarCard/AvatarCard';
 
 const useStyles = makeStyles(styles);
 
-export default function ProfilePage(props) {
+export default function TeamPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames();
