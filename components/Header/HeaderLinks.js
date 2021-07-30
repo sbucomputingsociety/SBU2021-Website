@@ -43,8 +43,14 @@ export default function HeaderLinks(props) {
             <Link href='/team'>
               <a className={classes.dropdownLink}>The Team</a>
             </Link>,
-            <Link href='/bylaws'>
-              <a className={classes.dropdownLink}>Bylaws</a>
+            <Link href='/pdf/bylaws2021.pdf'>
+              <a
+                className={classes.dropdownLink}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Bylaws
+              </a>
             </Link>,
           ]}
         />

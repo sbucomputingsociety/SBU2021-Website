@@ -38,7 +38,7 @@ export default function ResumeBookPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 200,
+          height: 40,
           color: 'white',
         }}
         {...rest}
@@ -58,21 +58,8 @@ export default function ResumeBookPage(props) {
                 >
                   <h3 className={classes.title}>Resume Book</h3>
                   <div className={classes.description}>
-                    <p>Add your resume to the resume book...</p>
+                    <p>Add your resume to the resume book. Coming soon!</p>
                   </div>
-                  {/* <h6 className={classes.message}>
-                    THANK YOU TO OUR 2021 CORPORATE SPONSORS!
-                  </h6>
-                  <GridContainer justify='center' className={classes.content}>
-                    <GridItem
-                      xs={12}
-                      sm={12}
-                      md={6}
-                      className={classes.sponsor}
-                    >
-                      <img src='/img/softheon-logo.png' />
-                    </GridItem>
-                  </GridContainer> */}
                 </div>
               </GridItem>
             </GridContainer>

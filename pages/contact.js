@@ -38,7 +38,7 @@ export default function ContactPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 200,
+          height: 40,
           color: 'white',
         }}
         {...rest}
@@ -84,7 +84,7 @@ export default function ContactPage(props) {
                     width='350'
                     height='500'
                     allowtransparency='true'
-                    frameborder='0'
+                    frameBorder='0'
                     sandbox='allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts'
                     style={{ alignSelf: 'center', marginTop: 20 }}
                   />

@@ -3,7 +3,10 @@ import { container, title } from 'styles/jss/nextjs-material-kit.js';
 import imagesStyle from 'styles/jss/nextjs-material-kit/imagesStyles.js';
 
 const sponsorsPageStyle = {
-  container,
+  container: {
+    ...container,
+    paddingBottom: 100,
+  },
   profile: {
     textAlign: 'center',
     '& img': {
