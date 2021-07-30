@@ -68,30 +68,55 @@ export default function TeamPage(props) {
             </div>
             <GridContainer>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Samin Mailk' position='President' />
+                <AvatarCard
+                  name="Samin Mailk '23"
+                  position='President'
+                  image='/img/faces/christian.jpg'
+                />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Nayan Pasari' position='Vice President' />
+                <AvatarCard
+                  name="Nayan Pasari '22"
+                  position='Vice President'
+                  image='/img/faces/nayanpasari.jpg'
+                />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Avish Parmar' position='Treasurer' />
+                <AvatarCard
+                  name="Avish Parmar '23"
+                  position='Treasurer'
+                  image='/img/faces/avishparmar.png'
+                />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Mir Farid' position='Secretary' />
+                <AvatarCard
+                  name="Mir Farid '23"
+                  position='Secretary'
+                  image='/img/faces/mirfarid.png'
+                />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Summer Wang' position='Event Coordinator' />
+                <AvatarCard
+                  name="Summer Wang '24"
+                  position='Event Coordinator'
+                  image='/img/faces/summerwang.jpg'
+                />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <AvatarCard
                   name="Lawrence Lin '21"
                   position='Webmaster'
+                  image='/img/faces/lawrencelin.jpg'
                   email='mailto:lawrence.lin@stonybrook.edu'
                   linkedin='https://www.linkedin.com/in/lawrencelin101/'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
-                <AvatarCard name='Paul Noble' position='Branding Manager' />
+                <AvatarCard
+                  name="Paul Noble '24"
+                  position='Branding Manager'
+                  image='/img/faces/christian.jpg'
+                />
               </GridItem>
             </GridContainer>
           </div>

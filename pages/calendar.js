@@ -21,7 +21,7 @@ import styles from 'styles/jss/nextjs-material-kit/pages/sponsorsPage.js';
 
 const useStyles = makeStyles(styles);
 
-export default function ResumeBookPage(props) {
+export default function CalendarPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -56,26 +56,21 @@ export default function ResumeBookPage(props) {
                     flexDirection: 'column',
                   }}
                 >
-                  <h3 className={classes.title}>Resume Book</h3>
+                  <h3 className={classes.title}>Calendar</h3>
                   <div className={classes.description}>
-                    <p>Add your resume to the resume book...</p>
+                    SBCS holds numerous social, academic, and professional
+                    events every semester. Be sure to look out for them!
                   </div>
-                  {/* <h6 className={classes.message}>
-                    THANK YOU TO OUR 2021 CORPORATE SPONSORS!
-                  </h6>
-                  <GridContainer justify='center' className={classes.content}>
-                    <GridItem
-                      xs={12}
-                      sm={12}
-                      md={6}
-                      className={classes.sponsor}
-                    >
-                      <img src='/img/softheon-logo.png' />
-                    </GridItem>
-                  </GridContainer> */}
                 </div>
               </GridItem>
             </GridContainer>
+            <iframe
+              src='https://calendar.google.com/calendar/embed?src=qis6pvui62sql87lc7d1aarm6g%40group.calendar.google.com&ctz=America%2FNew_York'
+              width='100%'
+              height='800'
+              frameborder='0'
+              scrolling='no'
+            />
           </div>
         </div>
       </div>

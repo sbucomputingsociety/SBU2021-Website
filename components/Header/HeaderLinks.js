@@ -10,7 +10,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Icon from '@material-ui/core/Icon';
 
 // @material-ui/icons
-import { Info, Book, Business, Phone } from '@material-ui/icons';
+import { Info, Book, Business, Phone, Event } from '@material-ui/icons';
 import DeleteIcon from '@material-ui/icons/Delete';
 import IconButton from '@material-ui/core/IconButton';
 
@@ -53,6 +53,26 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
+          buttonText='Events'
+          buttonProps={{
+            className: classes.navLink,
+            color: 'transparent',
+          }}
+          buttonIcon={Event}
+          dropdownList={[
+            <Link href='/calendar'>
+              <a className={classes.dropdownLink}>Calendar</a>
+            </Link>,
+            <Link href='/gbms'>
+              <a className={classes.dropdownLink}>GBMs</a>
+            </Link>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
           buttonText='Resources'
           buttonProps={{
             className: classes.navLink,
@@ -73,19 +93,13 @@ export default function HeaderLinks(props) {
         <Button
           href='/sponsors'
           color='transparent'
-          target='_blank'
           className={classes.navLink}
         >
           <Business className={classes.icons} /> Sponsors
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href='/contact'
-          color='transparent'
-          target='_blank'
-          className={classes.navLink}
-        >
+        <Button href='/contact' color='transparent' className={classes.navLink}>
           <Phone className={classes.icons} /> Contact SBCS
         </Button>
       </ListItem>

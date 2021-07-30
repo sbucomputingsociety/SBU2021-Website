@@ -21,7 +21,7 @@ import styles from 'styles/jss/nextjs-material-kit/pages/sponsorsPage.js';
 
 const useStyles = makeStyles(styles);
 
-export default function ResumeBookPage(props) {
+export default function ContactPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -54,25 +54,40 @@ export default function ResumeBookPage(props) {
                     display: 'flex',
                     justifyContent: 'center',
                     flexDirection: 'column',
+                    marginBottom: 100,
                   }}
                 >
-                  <h3 className={classes.title}>Resume Book</h3>
+                  <h3 className={classes.title}>Contact SBCS</h3>
                   <div className={classes.description}>
-                    <p>Add your resume to the resume book...</p>
-                  </div>
-                  {/* <h6 className={classes.message}>
-                    THANK YOU TO OUR 2021 CORPORATE SPONSORS!
-                  </h6>
-                  <GridContainer justify='center' className={classes.content}>
-                    <GridItem
-                      xs={12}
-                      sm={12}
-                      md={6}
-                      className={classes.sponsor}
+                    Click{' '}
+                    <a
+                      href='http://eepurl.com/c038SD'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      <img src='/img/softheon-logo.png' />
-                    </GridItem>
-                  </GridContainer> */}
+                      here
+                    </a>{' '}
+                    to join our mailing list to enroll in our weekly newsletter,
+                    which contains relevant opportunities, upcoming events, and
+                    other events of interest to computing students.
+                  </div>
+                  <br />
+                  <div className={classes.message}>
+                    You can also reach us at{' '}
+                    <a href='mailto:sbucomputingsociety@gmail.co'>
+                      sbucomputingsociety@gmail.com
+                    </a>
+                    .
+                  </div>
+                  <iframe
+                    src='https://discord.com/widget?id=751540629909143703&theme=dark'
+                    width='350'
+                    height='500'
+                    allowtransparency='true'
+                    frameborder='0'
+                    sandbox='allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts'
+                    style={{ alignSelf: 'center', marginTop: 20 }}
+                  />
                 </div>
               </GridItem>
             </GridContainer>

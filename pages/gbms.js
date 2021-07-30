@@ -21,7 +21,7 @@ import styles from 'styles/jss/nextjs-material-kit/pages/sponsorsPage.js';
 
 const useStyles = makeStyles(styles);
 
-export default function ResumeBookPage(props) {
+export default function GbmsPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -54,25 +54,19 @@ export default function ResumeBookPage(props) {
                     display: 'flex',
                     justifyContent: 'center',
                     flexDirection: 'column',
+                    marginBottom: 100,
                   }}
                 >
-                  <h3 className={classes.title}>Resume Book</h3>
+                  <h3 className={classes.title}>General Body Meetings</h3>
                   <div className={classes.description}>
-                    <p>Add your resume to the resume book...</p>
+                    SBCS holds General Body Meetings (GBMs) bi-weekly throughout
+                    the school year.
+                    <br />
+                    Time: Every other Wednesday 1pm.
+                    <br />
+                    Location: TBD
                   </div>
-                  {/* <h6 className={classes.message}>
-                    THANK YOU TO OUR 2021 CORPORATE SPONSORS!
-                  </h6>
-                  <GridContainer justify='center' className={classes.content}>
-                    <GridItem
-                      xs={12}
-                      sm={12}
-                      md={6}
-                      className={classes.sponsor}
-                    >
-                      <img src='/img/softheon-logo.png' />
-                    </GridItem>
-                  </GridContainer> */}
+                  <img src='/img/gbm.jpg' style={{ marginTop: 15 }} />
                 </div>
               </GridItem>
             </GridContainer>

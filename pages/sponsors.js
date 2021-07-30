@@ -34,7 +34,7 @@ export default function SponsorsPage(props) {
     <div>
       <Header
         color='transparent'
-        brand='NextJS Material Kit'
+        brand='Stony Brook Computing Society'
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
