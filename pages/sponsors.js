@@ -38,7 +38,7 @@ export default function SponsorsPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 40,
+          height: 60,
           color: 'white',
         }}
         {...rest}
@@ -60,7 +60,12 @@ export default function SponsorsPage(props) {
                   <div className={classes.description}>
                     <p>
                       SBCS is a great way for your company to reach out to Stony
-                      Brook students...
+                      Brook students. We are always looking for new sponsors! If
+                      you're interested, please contact us at{' '}
+                      <a href='mailto:sbucomputingsociety@gmail.com'>
+                        sbucomputingsociety@gmail.com
+                      </a>
+                      .
                     </p>
                   </div>
                   <h6 className={classes.message}>

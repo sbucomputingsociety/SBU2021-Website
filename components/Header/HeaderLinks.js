@@ -129,7 +129,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id='instagram-facebook'
-          title='Join us on Facebook'
+          title='Join our Facebook group!'
           placement={'top'}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -146,7 +146,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id='instagram-tooltip'
-          title='Follow us on instagram'
+          title='Follow us on Instagram!'
           placement={'top'}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -157,6 +157,40 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + ' fab fa-instagram'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id='youtube-tooltip'
+          title='Check out our YouTube channel!'
+          placement={'top'}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color='transparent'
+            href='https://www.youtube.com/channel/UCeIuePMDrzIQ4kfsM5H73sg'
+            target='_blank'
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + ' fab fa-youtube'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id='discord-tooltip'
+          title='Join our Discord server!'
+          placement={'top'}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color='transparent'
+            href='https://discord.gg/9TZcjyUhHS'
+            target='_blank'
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + ' fab fa-discord'} />
           </Button>
         </Tooltip>
       </ListItem>

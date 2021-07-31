@@ -40,7 +40,7 @@ export default function AboutPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 40,
+          height: 60,
           color: 'white',
         }}
         {...rest}

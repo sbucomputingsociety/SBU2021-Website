@@ -28,7 +28,7 @@ const parallaxStyle = (theme) => ({
     },
   },
   small: {
-    height: '210px',
+    height: '230px',
   },
   parallaxResponsive: {
     [theme.breakpoints.down('md')]: {

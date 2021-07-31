@@ -38,7 +38,7 @@ export default function CalendarPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 40,
+          height: 60,
           color: 'white',
         }}
         {...rest}
