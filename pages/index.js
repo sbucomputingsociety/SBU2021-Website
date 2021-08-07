@@ -60,7 +60,7 @@ export default function IndexPage(props) {
                 Make sure to check the Events tab for any upcoming events!
               </h4>
               <br />
-              <Button
+              {/* <Button
                 color='danger'
                 size='lg'
                 target='_blank'
@@ -68,7 +68,7 @@ export default function IndexPage(props) {
               >
                 <i className='fas fa-play' />
                 Watch video
-              </Button>
+              </Button> */}
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
               <img src='/img/bytes-logo.png' />

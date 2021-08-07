@@ -160,7 +160,7 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Tooltip
           id='youtube-tooltip'
           title='Check out our YouTube channel!'
@@ -176,7 +176,7 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + ' fab fa-youtube'} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Tooltip
           id='discord-tooltip'

@@ -38,7 +38,7 @@ export default function TeamPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 40,
+          height: 60,
           color: 'white',
         }}
         {...rest}
@@ -71,7 +71,7 @@ export default function TeamPage(props) {
                 <AvatarCard
                   name="Samin Mailk '23"
                   position='President'
-                  image='/img/faces/christian.jpg'
+                  image='/img/faces/saminmalik.jpg'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -115,7 +115,7 @@ export default function TeamPage(props) {
                 <AvatarCard
                   name="Paul Noble '24"
                   position='Branding Manager'
-                  image='/img/faces/christian.jpg'
+                  image='/img/faces/paulnoble.jpg'
                 />
               </GridItem>
             </GridContainer>
