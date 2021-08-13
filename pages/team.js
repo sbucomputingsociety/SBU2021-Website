@@ -72,6 +72,8 @@ export default function TeamPage(props) {
                   name="Samin Mailk '23"
                   position='President'
                   image='/img/faces/saminmalik.jpg'
+                  email='mailto:lawrence.lin@stonybrook.edu'
+                  linkedin='www.linkedin.com/in/saminmalik2000'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -79,6 +81,8 @@ export default function TeamPage(props) {
                   name="Nayan Pasari '22"
                   position='Vice President'
                   image='/img/faces/nayanpasari.jpg'
+                  email='mailto:nayan.pasari@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/nayan-pasari-10b201182/'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -86,6 +90,8 @@ export default function TeamPage(props) {
                   name="Avish Parmar '23"
                   position='Treasurer'
                   image='/img/faces/avishparmar.png'
+                  email='mailto:avish.parmar@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/avish-parmar-40951915a'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -93,6 +99,8 @@ export default function TeamPage(props) {
                   name="Mir Farid '23"
                   position='Secretary'
                   image='/img/faces/mirfarid.png'
+                  email='mailto:mir.farid@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/mirfarid/'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -100,6 +108,8 @@ export default function TeamPage(props) {
                   name="Summer Wang '24"
                   position='Event Coordinator'
                   image='/img/faces/summerwang.jpg'
+                  email='mailto:xuecen.wang@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/xuecen-summer-wang'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -116,6 +126,13 @@ export default function TeamPage(props) {
                   name="Paul Noble '24"
                   position='Branding Manager'
                   image='/img/faces/paulnoble.jpg'
+                  email='mailto:paul.noble@stonybrook.edu'
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name="Reilly Browne '23"
+                  position='Community Chair'
                 />
               </GridItem>
             </GridContainer>
