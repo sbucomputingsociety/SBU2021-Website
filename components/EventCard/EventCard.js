@@ -15,7 +15,8 @@ const useStyles = makeStyles(imagesStyle);
 
 export default function EventCard(props) {
   const classes = useStyles();
-  const { className, title, image, date, description, ...rest } = props;
+  const { className, title, image, date, location, description, ...rest } =
+    props;
   const imageClasses = classNames(classes.imgRaised, classes.imgFluid);
   return (
     <div
@@ -34,6 +35,7 @@ export default function EventCard(props) {
       </div>
       <h3 style={{ fontWeight: 'bold' }}>{title}</h3>
       <h5 style={{ color: '#f05537', fontWeight: 'bold' }}>{date}</h5>
+      <h5 style={{ color: '#6f7287', fontWeight: 'bold' }}>{location}</h5>
       <div>{description}</div>
     </div>
   );
