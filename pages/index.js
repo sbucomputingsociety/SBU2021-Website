@@ -70,7 +70,16 @@ export default function IndexPage(props) {
                 Watch video
               </Button> */}
             </GridItem>
-            <GridItem xs={12} sm={12} md={6}>
+            <GridItem
+              xs={12}
+              sm={12}
+              md={6}
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
               <img src='/img/bytes-logo.png' />
             </GridItem>
           </GridContainer>

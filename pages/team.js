@@ -133,6 +133,8 @@ export default function TeamPage(props) {
                 <AvatarCard
                   name="Reilly Browne '23"
                   position='Community Chair'
+                  image='/img/faces/reillybrowne.jpeg'
+                  email='mailto:reilly.browne@stonybrook.edu'
                 />
               </GridItem>
             </GridContainer>
