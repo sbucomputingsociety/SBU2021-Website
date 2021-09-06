@@ -20,13 +20,13 @@ import EventCard from '../../components/EventCard/EventCard';
 const useStyles = makeStyles(styles);
 
 const events = [
-  {
-    title: 'Stony Brook Involvement Fair',
-    image: '/img/events/sbinvolvementfair.png',
-    date: 'Wed, Sept 1, 2021 12:30PM - 2:30PM',
-    location: 'SAC Plaza',
-    description: 'Come meet SBCS at the Stony Brook Involvement Fair!',
-  },
+  // {
+  //   title: 'Stony Brook Involvement Fair',
+  //   image: '/img/events/sbinvolvementfair.png',
+  //   date: 'Wed, Sept 1, 2021 12:30PM - 2:30PM',
+  //   location: 'SAC Plaza',
+  //   description: 'Come meet SBCS at the Stony Brook Involvement Fair!',
+  // },
   {
     title: 'CEAS Involvement Fair',
     image: '/img/events/ceasinvolvementfair.png',
@@ -34,20 +34,27 @@ const events = [
     location: 'Engineering Quad',
     description: 'Come meet SBCS at the CEAS Involvement Fair!',
   },
-  // {
-  //   title: 'Event 2',
-  //   image: '/img/events/event1.jpg',
-  //   date: 'Wed, Sept 8, 2021 1:00PM EDT',
-  //   description:
-  //     'Ease into the week with our wonderful event held by The Stony Brook Computing Society!',
-  // },
-  // {
-  //   title: 'Event 3',
-  //   image: '/img/events/event1.jpg',
-  //   date: 'Wed, Sept 15, 2021 1:00PM EDT',
-  //   description:
-  //     'Ease into the week with our wonderful event held by The Stony Brook Computing Society!',
-  // },
+  {
+    title: 'GBM #1: Fishing for Introductions!',
+    date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Come to our first General Body Meeting of the year to meet the e-board and learn more about SBCS!',
+  },
+  {
+    title: 'IT & Engineering Networking Mixer',
+    image: '/img/events/itengineeringmixer.jpg',
+    date: 'Wed, Sept 22 2021 1:00PM - 3:00PM',
+    // location: 'Engineering Quad',
+    description: 'Come and connect with industry professionals!',
+  },
+
+  {
+    title: 'GBM #2: Git Workshop',
+    date: 'Wed, Sept 29 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description: 'Learn what Git is and how you can use it for your projects!',
+  },
   // {
   //   title: 'Event 4',
   //   image: '/img/events/event1.jpg',

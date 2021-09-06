@@ -28,6 +28,7 @@ export default function EventCard(props) {
         flexDirection: 'column',
         backgroundColor: '#f9f9f9',
         padding: 15,
+        height: '100%',
       }}
     >
       <div style={{ maxWidth: '350px' }}>
