@@ -27,19 +27,28 @@ const events = [
   //   location: 'SAC Plaza',
   //   description: 'Come meet SBCS at the Stony Brook Involvement Fair!',
   // },
-  {
-    title: 'CEAS Involvement Fair',
-    image: '/img/events/ceasinvolvementfair.png',
-    date: 'Wed, Sept 8 2021 12:30PM - 2:30PM',
-    location: 'Engineering Quad',
-    description: 'Come meet SBCS at the CEAS Involvement Fair!',
-  },
+  // {
+  //   title: 'CEAS Involvement Fair',
+  //   image: '/img/events/ceasinvolvementfair.png',
+  //   date: 'Wed, Sept 8 2021 12:30PM - 2:30PM',
+  //   location: 'Engineering Quad',
+  //   description: 'Come meet SBCS at the CEAS Involvement Fair!',
+  // },
   {
     title: 'GBM #1: Fishing for Introductions!',
+    image: '/img/events/fall2021gbm1.png',
     date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
     location: 'Engineering 145',
     description:
-      'Come to our first General Body Meeting of the year to meet the e-board and learn more about SBCS!',
+      'Come meet the e-board and join us for games + icebreakers + snacks!',
+  },
+  {
+    title: 'Career Fair Preparation',
+    image: '/img/events/careerfairprep.png',
+    date: 'Mon, Sept 20 2021 1:00PM - 2:00PM',
+    location: 'New CS 120',
+    description:
+      'Learn about resumes, interviews, how to speak to recruiters/companies, etc.',
   },
   {
     title: 'IT & Engineering Networking Mixer',
