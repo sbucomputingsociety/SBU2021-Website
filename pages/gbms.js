@@ -60,12 +60,20 @@ export default function GbmsPage(props) {
                   <h3 className={classes.title}>General Body Meetings</h3>
                   <div className={classes.description}>
                     SBCS holds General Body Meetings (GBMs) weekly throughout
-                    the school year.
+                    the school year. These can be social, academic, or
+                    career-oriented meetings!
                     <br />
-                    Time: Every other Wednesday 1pm.
                     <br />
-                    Location: Engineering 145
+                    <b>Time:</b> Every Wednesday 1pm (unless announced
+                    otherwise)
+                    <br />
+                    <b>Location:</b> Engineering 145
                   </div>
+                  <img src='/img/gbm1.jpg' style={{ marginTop: 15 }} />
+                  <span style={{ textAlign: 'center' }}>
+                    <b>Fall 2021 GBM #1:</b> We reached our record number of
+                    attendees - over <b>100</b> people came!
+                  </span>
                   <img src='/img/gbm.jpg' style={{ marginTop: 15 }} />
                 </div>
               </GridItem>

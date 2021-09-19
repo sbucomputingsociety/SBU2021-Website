@@ -34,14 +34,14 @@ const events = [
   //   location: 'Engineering Quad',
   //   description: 'Come meet SBCS at the CEAS Involvement Fair!',
   // },
-  {
-    title: 'GBM #1: Fishing for Introductions!',
-    image: '/img/events/fall2021gbm1.png',
-    date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
-    location: 'Engineering 145',
-    description:
-      'Come meet the e-board and join us for games + icebreakers + snacks!',
-  },
+  // {
+  //   title: 'GBM #1: Fishing for Introductions!',
+  //   image: '/img/events/fall2021gbm1.png',
+  //   date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
+  //   location: 'Engineering 145',
+  //   description:
+  //     'Come meet the e-board and join us for games + icebreakers + snacks!',
+  // },
   {
     title: 'Career Fair Preparation',
     image: '/img/events/careerfairprep.png',
@@ -54,12 +54,13 @@ const events = [
     title: 'IT & Engineering Networking Mixer',
     image: '/img/events/itengineeringmixer.jpg',
     date: 'Wed, Sept 22 2021 1:00PM - 3:00PM',
-    // location: 'Engineering Quad',
+    location: 'Zoom',
     description: 'Come and connect with industry professionals!',
   },
 
   {
     title: 'GBM #2: Git Workshop',
+    image: '/img/events/gitworkshop.png',
     date: 'Wed, Sept 29 2021 1:00PM - 2:00PM',
     location: 'Engineering 145',
     description: 'Learn what Git is and how you can use it for your projects!',
