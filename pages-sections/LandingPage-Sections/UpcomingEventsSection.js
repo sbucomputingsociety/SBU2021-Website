@@ -42,36 +42,44 @@ const events = [
   //   description:
   //     'Come meet the e-board and join us for games + icebreakers + snacks!',
   // },
-  {
-    title: 'Career Fair Preparation',
-    image: '/img/events/careerfairprep.png',
-    date: 'Mon, Sept 20 2021 1:00PM - 2:00PM',
-    location: 'New CS 120',
-    description:
-      'Learn about resumes, interviews, how to speak to recruiters/companies, etc.',
-  },
-  {
-    title: 'IT & Engineering Networking Mixer',
-    image: '/img/events/itengineeringmixer.jpg',
-    date: 'Wed, Sept 22 2021 1:00PM - 3:00PM',
-    location: 'Zoom',
-    description: 'Come and connect with industry professionals!',
-  },
-
-  {
-    title: 'GBM #2: Git Workshop',
-    image: '/img/events/gitworkshop.png',
-    date: 'Wed, Sept 29 2021 1:00PM - 2:00PM',
-    location: 'Engineering 145',
-    description: 'Learn what Git is and how you can use it for your projects!',
-  },
   // {
-  //   title: 'Event 4',
-  //   image: '/img/events/event1.jpg',
-  //   date: 'Wed, Sep 22, 2021 1:00PM EDT',
+  //   title: 'Career Fair Preparation',
+  //   image: '/img/events/careerfairprep.png',
+  //   date: 'Mon, Sept 20 2021 1:00PM - 2:00PM',
+  //   location: 'New CS 120',
   //   description:
-  //     'Ease into the week with our wonderful event held by The Stony Brook Computing Society!',
+  //     'Learn about resumes, interviews, how to speak to recruiters/companies, etc.',
   // },
+  // {
+  //   title: 'IT & Engineering Networking Mixer',
+  //   image: '/img/events/itengineeringmixer.jpg',
+  //   date: 'Wed, Sept 22 2021 1:00PM - 3:00PM',
+  //   location: 'Zoom',
+  //   description: 'Come and connect with industry professionals!',
+  // },
+  // {
+  //   title: 'GBM #2: Git Workshop',
+  //   image: '/img/events/gitworkshop.png',
+  //   date: 'Wed, Sept 29 2021 1:00PM - 2:00PM',
+  //   location: 'Engineering 145',
+  //   description: 'Learn what Git is and how you can use it for your projects!',
+  // },
+  // {
+  //   title: 'Blackstone Technology Seminar',
+  //   image: '/img/events/blackstonetechseminar.png',
+  //   date: 'Fri, Oct 1 2021 12:00PM - 1:00PM',
+  //   location: 'Zoom',
+  //   description:
+  //     'Come listen to Blackstone professionals as they talk about their experience and relevant industry technologies!',
+  // },
+  {
+    title: 'Cracking the Coding Interview',
+    image: '/img/events/crackingthecodinginterview.png',
+    date: 'Wed, Oct 13 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Applying for internships & jobs in CS? Come join us as we go over problem solving techniques and other interview tips!',
+  },
 ];
 
 export default function UpcomingEventsSection() {

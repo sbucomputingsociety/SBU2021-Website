@@ -22,6 +22,7 @@ import ProductSection from 'pages-sections/LandingPage-Sections/ProductSection.j
 import TeamSection from 'pages-sections/LandingPage-Sections/TeamSection.js';
 import WorkSection from 'pages-sections/LandingPage-Sections/WorkSection.js';
 import UpcomingEventsSection from '../pages-sections/LandingPage-Sections/UpcomingEventsSection';
+import PastEventsSection from '../pages-sections/LandingPage-Sections/PastEventsSection';
 
 const dashboardRoutes = [];
 
@@ -89,6 +90,7 @@ export default function IndexPage(props) {
         <div className={classes.container}>
           <div style={{ color: '#3c4858' }}>
             <UpcomingEventsSection />
+            <PastEventsSection />
           </div>
         </div>
       </div>

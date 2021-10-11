@@ -89,6 +89,9 @@ export default function HeaderLinks(props) {
             <Link href='/links'>
               <a className={classes.dropdownLink}>Links</a>
             </Link>,
+            <Link href='/gallery'>
+              <a className={classes.dropdownLink}>Gallery</a>
+            </Link>,
             <Link href='/resumebook'>
               <a className={classes.dropdownLink}>Resume Book</a>
             </Link>,
