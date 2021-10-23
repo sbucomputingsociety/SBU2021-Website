@@ -72,6 +72,21 @@ const events = [
     description:
       'Come listen to Blackstone professionals as they talk about their experience and relevant industry technologies!',
   },
+  {
+    title: 'Cracking the Coding Interview',
+    image: '/img/events/crackingthecodinginterview.png',
+    date: 'Wed, Oct 13 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Applying for internships & jobs in CS? Come join us as we go over problem solving techniques and other interview tips!',
+  },
+  {
+    title: 'Intro to Web Development',
+    image: '/img/events/introtowebdevelopment.png',
+    date: 'Wed, Oct 20 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description: 'Learn how to make a web app using HTML, CSS, and JavaScript!',
+  },
 ];
 
 export default function PastEventsSection() {
