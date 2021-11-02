@@ -87,6 +87,22 @@ const events = [
     location: 'Engineering 145',
     description: 'Learn how to make a web app using HTML, CSS, and JavaScript!',
   },
+  {
+    title: 'Mummy Wrap',
+    image: '/img/events/mummywrap.png',
+    date: 'Wed, Oct 27 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Are you ready for the night of the living bytes? No programming knowledge needed! Mummy wrap the SBCS e-board and win prizes for the best wrap!',
+  },
+  {
+    title: 'Course Scheduling Panel',
+    image: '/img/events/courseschedulingfall2021.png',
+    date: 'Fri, Oct 29 2021 1:00PM - 2:30PM',
+    location: 'bit.ly/coursepanel',
+    description:
+      'Join WiCS and SBCS for our Faculty and Student Panel! Come ask your burning questions and listen to answers from CSE/ISE professors & advisors.',
+  },
 ];
 
 export default function PastEventsSection() {

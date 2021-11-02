@@ -21,20 +21,11 @@ const useStyles = makeStyles(styles);
 
 const events = [
   {
-    title: 'Mummy Wrap',
-    image: '/img/events/mummywrap.png',
-    date: 'Wed, Oct 27 2021 1:00PM - 2:00PM',
+    title: 'Data Science Workshop Part 1',
+    image: '/img/events/datascienceworkshop.png',
+    date: 'Wed, Nov 3 2021 1:00PM - 2:30PM',
     location: 'Engineering 145',
-    description:
-      'Are you ready for the night of the living bytes? No programming knowledge needed! Mummy wrap the SBCS e-board and win prizes for the best wrap!',
-  },
-  {
-    title: 'Course Scheduling Panel',
-    image: '/img/events/courseschedulingfall2021.png',
-    date: 'Fri, Oct 29 2021 1:00PM - 2:30PM',
-    location: 'bit.ly/coursepanel',
-    description:
-      'Join WiCS and SBCS for our Faculty and Student Panel! Come ask your burning questions and listen to answers from CSE/ISE professors & advisors.',
+    description: 'Learn basic data science techniques using Python!',
   },
 ];
 
