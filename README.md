@@ -14,6 +14,10 @@
 
 ## Deploying The Site
 
+Run `yarn deploy` to the deploy the site. In the event that this command doesn't work, you can just run each step individually.
+
+Steps:
+
 1. Run `yarn build` to build the app.
 2. Run `yarn export` to build the static files.
 3. Run `touch out/.nojekyll` to tell GitHub Pages not to use Jekyll.
