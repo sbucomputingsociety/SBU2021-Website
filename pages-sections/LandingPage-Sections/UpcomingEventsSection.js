@@ -19,15 +19,7 @@ import EventCard from '../../components/EventCard/EventCard';
 
 const useStyles = makeStyles(styles);
 
-const events = [
-  {
-    title: 'Data Science Workshop Part 1',
-    image: '/img/events/datascienceworkshop.png',
-    date: 'Wed, Nov 3 2021 1:00PM - 2:30PM',
-    location: 'Engineering 145',
-    description: 'Learn basic data science techniques using Python!',
-  },
-];
+const events = [];
 
 export default function UpcomingEventsSection() {
   const classes = useStyles();

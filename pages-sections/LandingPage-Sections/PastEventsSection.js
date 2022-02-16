@@ -103,6 +103,21 @@ const events = [
     description:
       'Join WiCS and SBCS for our Faculty and Student Panel! Come ask your burning questions and listen to answers from CSE/ISE professors & advisors.',
   },
+  {
+    title: 'Data Science Workshop Part 1',
+    image: '/img/events/datascienceworkshop.png',
+    date: 'Wed, Nov 3 2021 1:00PM - 2:30PM',
+    location: 'Engineering 145',
+    description: 'Learn basic data science techniques using Python!',
+  },
+  {
+    title: "GBM #10: Study n' Snacks",
+    image: '/img/events/studynsnack.png',
+    date: 'Wed, Dec 1 2021 1:00PM',
+    location: 'Engineering 145',
+    description:
+      'Come join SBCS as we study for finals with snacks and lo-fi hip-hop beats during the dead week!',
+  },
 ];
 
 export default function PastEventsSection() {

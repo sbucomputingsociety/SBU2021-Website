@@ -73,7 +73,7 @@ export default function TeamPage(props) {
                   position='President'
                   image='/img/faces/saminmalik.jpg'
                   email='mailto:lawrence.lin@stonybrook.edu'
-                  linkedin='www.linkedin.com/in/saminmalik2000'
+                  linkedin='https://www.linkedin.com/in/saminmalik2000'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -114,7 +114,7 @@ export default function TeamPage(props) {
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <AvatarCard
-                  name="Lawrence Lin '21"
+                  name="Lawrence Lin '22"
                   position='Webmaster'
                   image='/img/faces/lawrencelin.jpg'
                   email='mailto:lawrence.lin@stonybrook.edu'
@@ -129,12 +129,52 @@ export default function TeamPage(props) {
                   email='mailto:paul.noble@stonybrook.edu'
                 />
               </GridItem>
-              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+              {/* <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <AvatarCard
                   name="Reilly Browne '23"
                   position='Community Chair'
                   image='/img/faces/reillybrowne.jpeg'
                   email='mailto:reilly.browne@stonybrook.edu'
+                />
+              </GridItem> */}
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name='Charlie Clark'
+                  position='Senior Rep'
+                  image='/img/faces/charlesclark.jpeg'
+                  email='mailto:charles.r.clark@stonybrook.edu'
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name='Arman Syed'
+                  position='Junior Rep'
+                  image='/img/faces/armansyed.jpg'
+                  email='mailto:arman.syed@stonybrook.edu'
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name='Bryan Lai'
+                  position='Sophomore Rep'
+                  image='/img/faces/bryanlai.jpg'
+                  email='mailto:bryan.j.lai@stonybrook.edu'
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name='Prachi Kadam'
+                  position='Sophomore Rep'
+                  image='/img/faces/prachikadam.jpg'
+                  email='mailto:prachi.kadam@stonybrook.edu'
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
+                <AvatarCard
+                  name='Amir Hamza'
+                  position='Freshman Rep'
+                  image='/img/faces/amirhamza.jpeg'
+                  email='mailto:mohammedamir.hamza@stonybrook.edu'
                 />
               </GridItem>
             </GridContainer>
