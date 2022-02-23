@@ -19,7 +19,24 @@ import EventCard from '../../components/EventCard/EventCard';
 
 const useStyles = makeStyles(styles);
 
-const events = [];
+const events = [
+  {
+    title: 'Landing Internships for Dummies (Series)',
+    image: '/img/events/internshipsfordummies.png',
+    date: "Wednesdays 1 PM on weeks we don't have GBMs",
+    location: 'TBD',
+    description:
+      'An ongoing series to help you score internships in the tech field!',
+  },
+  {
+    title: 'GBM #2: Python-ing the Technical Interview',
+    image: '/img/events/pythoningthetechnicalinterview.png',
+    date: 'Wed, March 2nd 2021 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Learn how to use data structures and algorithms in Python for your coding interviews!',
+  },
+];
 
 export default function UpcomingEventsSection() {
   const classes = useStyles();

@@ -19,7 +19,7 @@ import EventCard from '../../components/EventCard/EventCard';
 
 const useStyles = makeStyles(styles);
 
-const events = [
+let events = [
   {
     title: 'Stony Brook Involvement Fair',
     image: '/img/events/sbinvolvementfair.png',
@@ -122,6 +122,7 @@ const events = [
 
 export default function PastEventsSection() {
   const classes = useStyles();
+  events = events.reverse();
   return (
     <div className={classes.section}>
       <GridContainer justify='center'>
