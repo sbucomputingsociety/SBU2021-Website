@@ -68,7 +68,7 @@ export default function SponsorsPage(props) {
                       .
                     </p>
                   </div>
-                  <h6 className={classes.message}>
+                  {/* <h6 className={classes.message}>
                     THANK YOU TO OUR 2021 CORPORATE SPONSORS!
                   </h6>
                   <GridContainer justify='center' className={classes.content}>
@@ -79,6 +79,50 @@ export default function SponsorsPage(props) {
                       className={classes.sponsor}
                     >
                       <img src='/img/softheon-logo.png' />
+                    </GridItem>
+                  </GridContainer> */}
+                  <h6 className={classes.message}>PREVIOUSLY SPONSORED BY</h6>
+                  <GridContainer justify='center' className={classes.content}>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className={classes.sponsor}
+                      style={{ padding: '10px 0' }}
+                    >
+                      <img src='/img/google-logo.png' width={500} />
+                    </GridItem>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className={classes.sponsor}
+                    >
+                      <img src='/img/meta-logo.png' width={500} />
+                    </GridItem>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className={classes.sponsor}
+                    >
+                      <img src='/img/microsoft-logo.webp' width={500} />
+                    </GridItem>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className={classes.sponsor}
+                    >
+                      <img src='/img/blackrock-logo.png' width={500} />
+                    </GridItem>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className={classes.sponsor}
+                    >
+                      <img src='/img/softheon-logo.png' width={500} />
                     </GridItem>
                   </GridContainer>
                 </div>

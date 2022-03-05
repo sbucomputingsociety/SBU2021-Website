@@ -66,6 +66,7 @@ const sponsorsPageStyle = {
   sponsor: {
     display: 'flex',
     justifyContent: 'center',
+    padding: '20px 0',
   },
   navWrapper: {
     margin: '20px auto 50px auto',
