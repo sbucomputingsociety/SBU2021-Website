@@ -118,6 +118,15 @@ let events = [
     description:
       'Come join SBCS as we study for finals with snacks and lo-fi hip-hop beats during the dead week!',
   },
+
+  {
+    title: 'GBM #2: Python-ing the Technical Interview',
+    image: '/img/events/pythoningthetechnicalinterview.png',
+    date: 'Wed, March 2nd 2022 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Learn how to use data structures and algorithms in Python for your coding interviews!',
+  },
 ];
 
 export default function PastEventsSection() {

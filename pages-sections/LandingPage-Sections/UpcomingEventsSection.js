@@ -24,17 +24,19 @@ const events = [
     title: 'Landing Internships for Dummies (Series)',
     image: '/img/events/internshipsfordummies.png',
     date: "Wednesdays 1 PM on weeks we don't have GBMs",
-    location: 'TBD',
+    location: 'Zoom Link: bit.ly/sbcs-series',
+    href: 'https://bit.ly/sbcs-series',
     description:
       'An ongoing series to help you score internships in the tech field!',
   },
   {
-    title: 'GBM #2: Python-ing the Technical Interview',
-    image: '/img/events/pythoningthetechnicalinterview.png',
-    date: 'Wed, March 2nd 2021 1:00PM - 2:00PM',
-    location: 'Engineering 145',
+    title: 'Landing Internships for Dummies: A Roadmap',
+    image: '/img/events/landinginternshipfordummiesroadmap.png',
+    date: 'Wed, March 9th 2022 1:00PM - 2:00PM',
+    location: 'Zoom Link: bit.ly/sbcs-series',
+    href: 'https://bit.ly/sbcs-series',
     description:
-      'Learn how to use data structures and algorithms in Python for your coding interviews!',
+      "Come to the first session in SBCS's Landing Internships for Dummies series!",
   },
 ];
 

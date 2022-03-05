@@ -89,7 +89,7 @@ export default function TeamPage(props) {
                 <AvatarCard
                   name="Avish Parmar '23"
                   position='Treasurer'
-                  image='/img/faces/avishparmar.png'
+                  image='/img/faces/avishparmar.jpg'
                   email='mailto:avish.parmar@stonybrook.edu'
                   linkedin='https://www.linkedin.com/in/avish-parmar-40951915a'
                 />
@@ -127,6 +127,7 @@ export default function TeamPage(props) {
                   position='Branding Manager'
                   image='/img/faces/paulnoble.jpg'
                   email='mailto:paul.noble@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/pauledwardnoble/'
                 />
               </GridItem>
               {/* <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -141,8 +142,9 @@ export default function TeamPage(props) {
                 <AvatarCard
                   name='Charlie Clark'
                   position='Senior Rep'
-                  image='/img/faces/charlesclark.jpeg'
+                  image='/img/faces/charlesclark.jpg'
                   email='mailto:charles.r.clark@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/charles-clark-ab26b71b2/'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
@@ -159,6 +161,7 @@ export default function TeamPage(props) {
                   position='Sophomore Rep'
                   image='/img/faces/bryanlai.jpg'
                   email='mailto:bryan.j.lai@stonybrook.edu'
+                  linkedin='https://www.linkedin.com/in/bryanlais/'
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>

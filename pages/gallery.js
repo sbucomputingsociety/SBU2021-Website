@@ -42,24 +42,53 @@ export default function GalleryPage(props) {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
     // autoplay: true,
   };
 
-  const images = [
+  const fall2021images = [
     {
-      src: '/img/gallery/involvementfair.jpg',
+      src: '/img/gallery/involvementfair-fall2021.jpg',
       alt: 'CEAS Involvement Fair 2021',
       caption: 'CEAS Involvement Fair 2021',
     },
     {
-      src: '/img/gallery/gbm1-0.png',
+      src: '/img/gallery/gbm1-0-fall2021.png',
       alt: 'Meet the E-Board!',
       caption: 'Meet the E-Board!',
     },
     {
-      src: '/img/gallery/gbm1-1.jpg',
+      src: '/img/gallery/gbm1-1-fall2021.jpg',
       alt: 'GBM #1 Fall 2021',
       caption: 'GBM #1 Fall 2021',
+    },
+    {
+      src: '/img/gallery/gitworkshop-fall2021.JPG',
+      alt: 'GBM #2: Git Workshop',
+      caption: 'GBM #2: Git Workshop',
+    },
+    {
+      src: '/img/gallery/jeopardy-fall2021.jpg',
+      alt: 'GBM #3: Jeopardy!',
+      caption: 'GBM #3: Jeopardy!',
+    },
+    {
+      src: '/img/gallery/mummywrap-fall2021.png',
+      alt: 'Mummy Wrapping',
+      caption: 'Mummy Wrapping',
+    },
+    {
+      src: '/img/gallery/thanksgivingpotluck-fall2021.jpeg',
+      alt: 'Thanksgiving Potluck',
+      caption: 'Thanksgiving Potluck',
+    },
+  ];
+
+  const spring2022images = [
+    {
+      src: '/img/gallery/gbm1-spring2022.jpg',
+      alt: 'GBM #1 Spring 2022',
+      caption: 'GBM #1 Spring 2022',
     },
   ];
 
@@ -101,8 +130,31 @@ export default function GalleryPage(props) {
                       sbucomputingsociety@gmail.com
                     </a>
                   </div>
+                  <h4>Fall 2021</h4>
                   <Carousel {...settings}>
-                    {images.map((image) => (
+                    {fall2021images.map((image) => (
+                      <div>
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className='slick-image'
+                        />
+                        <div
+                          className='slick-caption'
+                          style={{
+                            bottom: 0,
+                            padding: 0,
+                            backgroundColor: 'rgba(0,0,0,0.5)',
+                          }}
+                        >
+                          <h4 style={{ margin: 0 }}>{image.caption}</h4>
+                        </div>
+                      </div>
+                    ))}
+                  </Carousel>
+                  <h4>Spring 2022</h4>
+                  <Carousel {...settings}>
+                    {spring2022images.map((image) => (
                       <div>
                         <img
                           src={image.src}
