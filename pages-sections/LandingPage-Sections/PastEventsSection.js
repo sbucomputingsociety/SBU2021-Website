@@ -118,7 +118,6 @@ let events = [
     description:
       'Come join SBCS as we study for finals with snacks and lo-fi hip-hop beats during the dead week!',
   },
-
   {
     title: 'GBM #2: Python-ing the Technical Interview',
     image: '/img/events/pythoningthetechnicalinterview.png',
@@ -126,6 +125,15 @@ let events = [
     location: 'Engineering 145',
     description:
       'Learn how to use data structures and algorithms in Python for your coding interviews!',
+  },
+  {
+    title: 'Landing Internships for Dummies: A Roadmap',
+    image: '/img/events/landinginternshipfordummiesroadmap.png',
+    date: 'Wed, March 9th 2022 1:00PM - 2:00PM',
+    location: 'Zoom Link: bit.ly/sbcs-series',
+    href: 'https://bit.ly/sbcs-series',
+    description:
+      "Come to the first session in SBCS's Landing Internships for Dummies series!",
   },
 ];
 
