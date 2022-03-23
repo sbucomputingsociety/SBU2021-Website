@@ -46,7 +46,7 @@ const events = [
     description: 'Join WiCS and SBCS for our Faculty and Student Panel!',
   },
 ];
-
+courseschedulingspring2022;
 export default function UpcomingEventsSection() {
   const classes = useStyles();
   return (
