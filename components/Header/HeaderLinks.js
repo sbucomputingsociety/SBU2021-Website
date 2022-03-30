@@ -43,6 +43,9 @@ export default function HeaderLinks(props) {
             <Link href='/team'>
               <a className={classes.dropdownLink}>The Team</a>
             </Link>,
+            <Link href='/gallery'>
+              <a className={classes.dropdownLink}>Gallery</a>
+            </Link>,
             <Link href='/pdf/bylaws2021.pdf'>
               <a
                 className={classes.dropdownLink}
@@ -88,9 +91,6 @@ export default function HeaderLinks(props) {
           dropdownList={[
             <Link href='/links'>
               <a className={classes.dropdownLink}>Links</a>
-            </Link>,
-            <Link href='/gallery'>
-              <a className={classes.dropdownLink}>Gallery</a>
             </Link>,
             <Link href='/resumebook'>
               <a className={classes.dropdownLink}>Resume Book</a>

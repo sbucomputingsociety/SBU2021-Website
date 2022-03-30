@@ -45,6 +45,15 @@ const events = [
     href: 'https://bit.ly/course-scheduling22',
     description: 'Join WiCS and SBCS for our Faculty and Student Panel!',
   },
+  {
+    title: 'Data Science Hackathon',
+    image: '/img/events/datasciencehackathonapril2022.png',
+    date: 'April 1 - April 31',
+    location: 'Join the SBCS Discord for more info!',
+    href: 'https://discord.gg/F3j32S5AhX',
+    description:
+      'SBCS is hosting an online month-long data science hackathon from April 1 to April 31!',
+  },
 ];
 
 export default function UpcomingEventsSection() {
