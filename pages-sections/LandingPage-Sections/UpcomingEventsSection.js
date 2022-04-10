@@ -21,6 +21,22 @@ const useStyles = makeStyles(styles);
 
 const events = [
   {
+    title: 'Careers in Project Management',
+    image: '/img/events/projectmanagement.png',
+    date: 'Wednesday, April 13 6PM - 7:30PM',
+    location: 'Register on Handshake!',
+    href: 'https://app.joinhandshake.com/stu/events/953023?ref=events-search',
+    description:
+      'Learn more about project management in a virtual networking opportunity with experts from PMI Long Island Chapter and SBU!',
+  },
+  {
+    title: 'Succulent Potting Party',
+    image: '/img/events/succulent.png',
+    date: 'Wednesday, April 20 7:30PM - 9PM',
+    location: 'SAC 169',
+    description: 'SBCS x WiCS is holding a succulent potting party!',
+  },
+  {
     title: 'Landing Internships for Dummies (Series)',
     image: '/img/events/internshipsfordummies.png',
     date: "Wednesdays 1 PM on weeks we don't have GBMs",
@@ -28,22 +44,6 @@ const events = [
     href: 'https://bit.ly/sbcs-series',
     description:
       'An ongoing series to help you score internships in the tech field!',
-  },
-  {
-    title: 'GBM #3: SBCS Logo Making',
-    image: '/img/events/gbm3spring2022.png',
-    date: 'Wed, March 23th 2022 1:00PM - 2:00PM',
-    location: 'Engineering 145',
-    description:
-      'Come help SBCS make a brand new logo! There will be a prize for the best design!',
-  },
-  {
-    title: 'Course Scheduling Panel',
-    image: '/img/events/courseschedulingspring2022.png',
-    date: 'Fri, April 1st 2022 2:00PM - 3:30PM',
-    location: 'bit.ly/course-scheduling22',
-    href: 'https://bit.ly/course-scheduling22',
-    description: 'Join WiCS and SBCS for our Faculty and Student Panel!',
   },
   {
     title: 'Data Science Hackathon',

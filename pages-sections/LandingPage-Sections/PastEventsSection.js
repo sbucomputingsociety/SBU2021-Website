@@ -135,6 +135,22 @@ let events = [
     description:
       "Come to the first session in SBCS's Landing Internships for Dummies series!",
   },
+  {
+    title: 'GBM #3: SBCS Logo Making',
+    image: '/img/events/gbm3spring2022.png',
+    date: 'Wed, March 23th 2022 1:00PM - 2:00PM',
+    location: 'Engineering 145',
+    description:
+      'Come help SBCS make a brand new logo! There will be a prize for the best design!',
+  },
+  {
+    title: 'Course Scheduling Panel',
+    image: '/img/events/courseschedulingspring2022.png',
+    date: 'Fri, April 1st 2022 2:00PM - 3:30PM',
+    location: 'bit.ly/course-scheduling22',
+    href: 'https://bit.ly/course-scheduling22',
+    description: 'Join WiCS and SBCS for our Faculty and Student Panel!',
+  },
 ];
 
 export default function PastEventsSection() {
