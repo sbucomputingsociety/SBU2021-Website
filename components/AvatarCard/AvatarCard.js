@@ -36,7 +36,7 @@ export default function AvatarCard(props) {
       <h5 style={{ fontWeight: 'bold' }}>{name}</h5>
       <p style={{ marginBottom: 10 }}>{position}</p>
       <div style={{ maxWidth: '200px' }}>
-        <img src={image} className={imageClasses} />
+        <img src={image} className={imageClasses} style={{height:'200px', width:'200px'}}/>
       </div>
       <div>
         {email ? (

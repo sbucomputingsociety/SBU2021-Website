@@ -21,38 +21,18 @@ const useStyles = makeStyles(styles);
 
 const events = [
   {
-    title: 'Careers in Project Management',
-    image: '/img/events/projectmanagement.png',
-    date: 'Wednesday, April 13 6PM - 7:30PM',
-    location: 'Register on Handshake!',
-    href: 'https://app.joinhandshake.com/stu/events/953023?ref=events-search',
-    description:
-      'Learn more about project management in a virtual networking opportunity with experts from PMI Long Island Chapter and SBU!',
+    title: 'Technical Interview Prep Part 1',
+    image: '/img/events/Technical_Interview_Prep_11_2_2022.png',
+    date: 'Wednesday, November 2 2022 1PM - 2PM',
+    location: 'Engineering 145',
+    description: 'Join to learn about how to prepare for and ace your technical interviews!',
   },
   {
-    title: 'Succulent Potting Party',
-    image: '/img/events/succulent.png',
-    date: 'Wednesday, April 20 7:30PM - 9PM',
-    location: 'SAC 169',
-    description: 'SBCS x WiCS is holding a succulent potting party!',
-  },
-  {
-    title: 'Landing Internships for Dummies (Series)',
-    image: '/img/events/internshipsfordummies.png',
-    date: "Wednesdays 1 PM on weeks we don't have GBMs",
-    location: 'Zoom Link: bit.ly/sbcs-series',
-    href: 'https://bit.ly/sbcs-series',
-    description:
-      'An ongoing series to help you score internships in the tech field!',
-  },
-  {
-    title: 'Data Science Hackathon',
-    image: '/img/events/datasciencehackathonapril2022.png',
-    date: 'April 1 - April 31',
-    location: 'Join the SBCS Discord for more info!',
-    href: 'https://discord.gg/F3j32S5AhX',
-    description:
-      'SBCS is hosting an online month-long data science hackathon from April 1 to April 31!',
+    title: 'Career in Tech',
+    image: '/img/events/careers_in_Tech_11_9_2022.png',
+    date: 'Wednesday, November 9 2022 1PM - 2PM',
+    location: 'Engineering 145',
+    description: 'Considering a career path in tech? Come to learn about jobs and opportunities in the tech industry today.',
   },
 ];
 
