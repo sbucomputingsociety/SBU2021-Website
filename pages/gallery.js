@@ -92,6 +92,19 @@ export default function GalleryPage(props) {
     },
   ];
 
+  const fall2022images = [
+    {
+      src: '/img/faces/group2.jpg',
+      alt: 'eboard picture',
+      caption: 'First EBM Fall 2022!',
+    },
+    {
+      src: '/img/faces/group1.jpg',
+      alt: 'eboard picture',
+      caption: 'First EBM Fall 2022!',
+    },
+  ];
+
   return (
     <div>
       <Header
@@ -175,6 +188,31 @@ export default function GalleryPage(props) {
                       </div>
                     ))}
                   </Carousel>
+
+                  <h4>Fall 2022</h4>
+                  <Carousel {...settings}>
+                    {fall2022images.map((image) => (
+                      <div>
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className='slick-image'
+                        />
+
+                        <div
+                          className='slick-caption'
+                          style={{
+                            bottom: 0,
+                            padding: 0,
+                            backgroundColor: 'rgba(0,0,0,0.5)',
+                          }}
+                        >
+                          <h4 style={{ margin: 0 }}>{image.caption}</h4>
+                        </div>
+                      </div>
+                    ))}
+                  </Carousel>
+
                 </div>
               </GridItem>
             </GridContainer>

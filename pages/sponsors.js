@@ -43,7 +43,7 @@ export default function SponsorsPage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image='/img/profile-bg.jpg' />
+      <Parallax small filter image='/img/SBCS-Blue-Gray-Logo.png' />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

@@ -43,7 +43,7 @@ export default function EventCard(props) {
         <img src={image} className={imageClasses} />
       </div>
       <h3 style={{ fontWeight: 'bold' }}>{title}</h3>
-      <h5 style={{ color: '#f05537', fontWeight: 'bold' }}>{date}</h5>
+      <h5 style={{ color: '#0094DE', fontWeight: 'bold' }}>{date}</h5>
       {href ? (
         <a href={href}>
           <h5 style={{ color: '#6f7287', fontWeight: 'bold' }}>{location}</h5>

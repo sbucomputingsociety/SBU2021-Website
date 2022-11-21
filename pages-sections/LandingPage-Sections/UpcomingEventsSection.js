@@ -21,18 +21,11 @@ const useStyles = makeStyles(styles);
 
 const events = [
   {
-    title: 'Technical Interview Prep Part 1',
-    image: '/img/events/Technical_Interview_Prep_11_2_2022.png',
-    date: 'Wednesday, November 2 2022 1PM - 2PM',
+    title: 'Technical Interview Prep Part 2',
+    image: '/img/events/Technical_Interviews_Pt._2_2.png',
+    date: 'Wednesday, December 7 2022 1PM - 2PM',
     location: 'Engineering 145',
-    description: 'Join to learn about how to prepare for and ace your technical interviews!',
-  },
-  {
-    title: 'Career in Tech',
-    image: '/img/events/careers_in_Tech_11_9_2022.png',
-    date: 'Wednesday, November 9 2022 1PM - 2PM',
-    location: 'Engineering 145',
-    description: 'Considering a career path in tech? Come to learn about jobs and opportunities in the tech industry today.',
+    description: 'Join to learn how to solve technical problems and enjoy some food!',
   },
 ];
 
