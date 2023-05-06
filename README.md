@@ -44,3 +44,4 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ## Authors
 
 - [Lawrence Lin](https://github.com/law-lin)
+- [JiaXin Angel Xie](https://github.com/AngelAngelXie)
